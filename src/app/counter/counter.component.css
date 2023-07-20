@@ -1,0 +1,32 @@
+.btn{
+
+border-radius: 50px;
+border-width: 0;
+box-shadow: rgba(25, 25, 25, 0.04) 0 0 1px 0, rgba(0, 0, 0, 0.1) 0 3px 4px 0;
+
+cursor: pointer;
+display: inline-block;
+font-family: Arial, sans-serif;
+font-size: 1em;
+height: 50px;
+padding: 0 25px;
+transition: all 200ms;
+
+:hover {
+background-color: #AFE6C3;
+transform: scale(1.05);
+}
+}
+
+.btn-incrementar {
+  background-color: #C2FBD7;
+  color: #008000;
+}
+.btn-decrementar {
+  background-color: #e5e9d2;
+  color: #6b8303;
+}
+.btn-reset {
+  background-color: #e2b0b0;
+  color: #800000;
+}
